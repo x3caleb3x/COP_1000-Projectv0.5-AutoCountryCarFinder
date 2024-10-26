@@ -38,14 +38,11 @@ def removeCar():
 
 #Menu
 while input != 5:
-  print("===============================")
-  print("AutoCountry Vehicle Finder v0.6")
-  print("===============================")
+  print("********************************")
+  print("AutoCountry Vehicle Finder v0.1")
+  print("********************************")
   print("Please enter the following number below from the following menu:")
   print("1. PRINT all Authorized Vehicles")
-  print("2. SEARCH for Authorized Vehicle")
-  print("3. ADD Authorized Vehicle")
-  print("4. DELETE Authorized Vehicle")
   print("5. Exit")
   
   ##############
