@@ -43,7 +43,8 @@ while input != 5:
   print("********************************")
   print("Please enter the following number below from the following menu:")
   print("1. PRINT all Authorized Vehicles")
-  print("2. Exit")
+  print("2. SEARCH for Authorized Vehicle")
+  print("3. Exit")
 
   menu = int(input(""))
   #Menu Selection
@@ -51,6 +52,9 @@ while input != 5:
     vehicles()
 
   if menu == 2:
+    searchCar()
+  
+  if menu == 3:
     print("Thank you for using the AutoCountry Vehicle Finder, good-bye!")
     exit()
   
