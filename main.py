@@ -20,7 +20,7 @@ def searchCar():
 #Menu
 while input != 5:
   print("********************************")
-  print("AutoCountry Vehicle Finder v0.1")
+  print("AutoCountry Vehicle Finder v0.2")
   print("********************************")
   print("Please enter the following number below from the following menu:")
   print("1. PRINT all Authorized Vehicles")
