@@ -19,7 +19,7 @@ def searchCar():
 #Function to Add Car
 def addCar():
   newCar = input("Please Enter the full Vehicle name you would like to add: ")
-  with open("allowedVehicleList.txt", "a") as file:
+  with open("authorizedvehiclelist.txt", "a") as file:
     file.write("\n")
     file.write(newCar)
     print("You have added " + str(newCar) + " as an authorized vehicle")
