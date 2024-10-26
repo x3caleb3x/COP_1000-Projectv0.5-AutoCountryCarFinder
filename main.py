@@ -16,25 +16,6 @@ def searchCar():
       print(str(car)+ " is an authorized vehicle")
     else:
       print(str(car)+ " is not an authorized vehicle")
-#Function to Add Car
-def addCar():
-  newCar = input("Please Enter the full Vehicle name you would like to add: ")
-  with open("authorizedvehiclelist.txt", "a") as file:
-    file.write("\n")
-    file.write(newCar)
-    print("You have added " + str(newCar) + " as an authorized vehicle")
-#Function to Remove Car
-def removeCar():
-  deleteCar = input("Please Enter the full Vehicle name you would like to REMOVE: ")
-  assurance = input("Are you sure you want to remove " + str(deleteCar) + " from the Authorized Vehicle List? ")
-  if assurance == "yes":
-    with open("authorizedvehiclelist.txt", "r") as file:
-      lines = file.readlines()
-    with open("authorizedvehiclelist.txt", "w") as file:
-      for line in lines:
-        if line.strip("\n") != deleteCar:
-          file.write(line)
-    print("You have REMOVED " + str(deleteCar) + " as an authorized vehicle")
 
 #Menu
 while input != 5:
