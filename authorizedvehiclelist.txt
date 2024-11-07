@@ -3,3 +3,5 @@ Chevrolet Silverado
 Tesla CyberTruck
 Toyota Tundra
 Nissan Titan
+Ram 1500
+Rivian R1T
